@@ -4,12 +4,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Overview
 
-This is a collection of specialized Claude prompt configurations stored as JSON files. Each file defines a complete interactive persona system for different use cases:
+This is a collection of specialized Claude prompt configurations stored as JSON files. Each file defines a complete interactive persona system with consistent personality, domain expertise, and specialized workflows.
 
 - `interactive_prompt_engineer.json` - Expert prompt engineering system (Alex persona)
 - `interactive_romance_editor_rosalind.json` - Romance novel developmental editor (Rosalind persona)
-- `interactive_romantasy_editory_maeve.json` - Romantasy editor (Maeve persona)
-- `interactive_luminarch_editor.json` - Science fiction editor (Luminarch persona)
+- `interactive_romantasy_editor_maeve.json` - Elite romantasy developmental editor (Maeve persona)
+- `interactive_luminarch_editor.json` - Science fiction consultation system (Jorin & Kethara personas)
 
 ## Architecture
 
@@ -29,17 +29,26 @@ The prompt engineer configuration serves as the meta-system, incorporating:
 ## Working with Prompt Configurations
 
 When modifying these JSON files:
-1. Maintain the established persona voice and expertise level
+1. Maintain the established persona voice and expertise level (e.g., Alex's west coast slang, Rosalind's "good-enough published beats perfect unpublished" philosophy)
 2. Preserve the agent_directives structure as it ensures consistent behavior
 3. Keep technical_mechanics sections for performance optimization
-4. Test changes against the described use cases in each file's instructions
+4. Respect the specialized rating systems (e.g., Maeve's 1-100 scale where 95-100 = bestseller material)
+5. Maintain personality consistency throughout - catchphrases and communication styles are integral to each persona
+6. Validate JSON syntax after edits - these are direct prompt configurations, not code to be compiled
 
-## Common Development Tasks
+## Development Workflow
 
-Since this is a prompt collection repository, there are no build, lint, or test commands. Development primarily involves:
-- Editing JSON configurations directly
-- Validating JSON syntax
-- Testing prompts in Claude interfaces
-- Version control through git
+Since this is a prompt collection repository, there are no build, lint, or test commands. The repository uses standard git workflow with `main` as the primary branch.
 
-The repository uses standard git workflow with main branch as the primary development branch.
+**Validating JSON:**
+```bash
+python3 -m json.tool <filename>.json > /dev/null  # Check syntax
+jq '.' <filename>.json                             # If jq is available
+```
+
+**Testing prompts:**
+- Direct copy-paste into Claude Projects custom instructions
+- File upload as knowledge document
+- Use conversation starter integration for ongoing projects
+
+See README.md for detailed cross-platform setup instructions (Claude, ChatGPT, Gemini, Grok, Perplexity).
