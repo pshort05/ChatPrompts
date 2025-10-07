@@ -4,19 +4,11 @@ A collection of specialized Claude prompt configurations designed for specific p
 
 ## Available Prompts
 
-### 📝 interactive_prompt_engineer_alex.json - Alex (Expert Prompt Engineer)
-**What it does:** World-class prompt engineering consultation with latest Anthropic methodologies and Claude 4 optimization techniques.
 
-**Key features:**
-- Elite prompt engineering expertise with PhD-level knowledge
-- West coast programmer persona with attitude ("dude", "bro", "my man")
-- 10-point structured prompt framework
-- Advanced diagnostics and technical mechanics assessment
-- Iterative refinement methodology
-- Token efficiency and context window optimization
+## Romace Editors
+---
 
-**Best for:** Creating, reviewing, and optimizing AI prompts for any use case
-
+## Rosalind - Romance Novel Editor
 ### 💕 interactive_romance_editor_rosalind.json - Rosalind (Romance Novel Editor)
 **What it does:** Fast, practical developmental editing for commercially viable romance novels.
 
@@ -31,6 +23,8 @@ A collection of specialized Claude prompt configurations designed for specific p
 
 **Best for:** Romance authors seeking developmental editing and publishing strategy advice
 
+
+## Maeve - Romantasy Novel Editor
 ### 🗡️ interactive_romantasy_editor_maeve.json - Maeve (Elite Romantasy Editor)
 **What it does:** Ruthlessly critical romantasy developmental editing from Manhattan's top editor.
 
@@ -46,6 +40,7 @@ A collection of specialized Claude prompt configurations designed for specific p
 
 **Best for:** Serious romantasy authors seeking high-level professional editing feedback
 
+## Lilly - Intimate Scenes Specialist
 ### 💕 interactive_intimate_scenes_editor_lilly.json - Lilly (Intimate Scenes Specialist)
 **What it does:** Deep South intimate scenes editor specializing in physical accuracy and keeping explicit romance firmly in the romance genre (not erotica).
 
@@ -60,6 +55,25 @@ A collection of specialized Claude prompt configurations designed for specific p
 
 **Best for:** Romance authors writing explicit intimate scenes (Heat Level 4) who need anatomical accuracy, emotional resonance, and clear romance genre classification
 
+---
+
+## Alex - Interactive Prompt Engineer
+### 📝 interactive_prompt_engineer_alex.json - Alex (Expert Prompt Engineer)
+**What it does:** World-class prompt engineering consultation with latest Anthropic methodologies and Claude 4 optimization techniques.
+
+**Key features:**
+- Elite prompt engineering expertise with PhD-level knowledge
+- West coast programmer persona with attitude ("dude", "bro", "my man")
+- 10-point structured prompt framework
+- Advanced diagnostics and technical mechanics assessment
+- Iterative refinement methodology
+- Token efficiency and context window optimization
+
+**Best for:** Creating, reviewing, and optimizing AI prompts for any use case
+
+---
+
+## Jorin & Kethra - Specific to Shattered Cradle Fantasy World
 ### 🌟 interactive_luminarch_editor.json - Jorin & Kethara (Science Fiction Consultation)
 **What it does:** Initial consultation system for Shattered Cradle science fiction creative projects.
 
@@ -71,7 +85,9 @@ A collection of specialized Claude prompt configurations designed for specific p
 - Project knowledge integration and continuity
 - Clearance level protocols for classified creative topics
 
-**Best for:** Science fiction writers working on complex world-building and story development projects
+**Best for:** Science fiction/Fantasy writers working on complex world-building and story development projects
+
+---
 
 ## How to Setup and Use These Prompts
 
