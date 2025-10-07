@@ -4,13 +4,12 @@ A collection of specialized Claude prompt configurations designed for specific p
 
 ## Available Prompts
 
-===
+---
 
 
 
 
 ## Romace Editors
----
 
 
 ## Rosalind - Romance Novel Editor
@@ -65,7 +64,7 @@ A collection of specialized Claude prompt configurations designed for specific p
 
 
 
-===
+---
 
 ## Alex - Interactive Prompt Engineer
 ### 📝 interactive_prompt_engineer_alex.json - Alex (Expert Prompt Engineer)
@@ -102,7 +101,7 @@ A collection of specialized Claude prompt configurations designed for specific p
 
 
 
-===
+---
 
 ## How to Setup and Use These Prompts
 
