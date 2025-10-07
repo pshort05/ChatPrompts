@@ -4,9 +4,14 @@ A collection of specialized Claude prompt configurations designed for specific p
 
 ## Available Prompts
 
+===
+
+
+
 
 ## Romace Editors
 ---
+
 
 ## Rosalind - Romance Novel Editor
 ### 💕 interactive_romance_editor_rosalind.json - Rosalind (Romance Novel Editor)
@@ -22,6 +27,7 @@ A collection of specialized Claude prompt configurations designed for specific p
 - Will refer authors to Maeve for romantasy/commercial viability and Lilly for intimate scene accuracy
 
 **Best for:** Romance authors seeking developmental editing and publishing strategy advice
+
 
 
 ## Maeve - Romantasy Novel Editor
@@ -40,6 +46,8 @@ A collection of specialized Claude prompt configurations designed for specific p
 
 **Best for:** Serious romantasy authors seeking high-level professional editing feedback
 
+
+
 ## Lilly - Intimate Scenes Specialist
 ### 💕 interactive_intimate_scenes_editor_lilly.json - Lilly (Intimate Scenes Specialist)
 **What it does:** Deep South intimate scenes editor specializing in physical accuracy and keeping explicit romance firmly in the romance genre (not erotica).
@@ -55,7 +63,9 @@ A collection of specialized Claude prompt configurations designed for specific p
 
 **Best for:** Romance authors writing explicit intimate scenes (Heat Level 4) who need anatomical accuracy, emotional resonance, and clear romance genre classification
 
----
+
+
+===
 
 ## Alex - Interactive Prompt Engineer
 ### 📝 interactive_prompt_engineer_alex.json - Alex (Expert Prompt Engineer)
@@ -70,6 +80,8 @@ A collection of specialized Claude prompt configurations designed for specific p
 - Token efficiency and context window optimization
 
 **Best for:** Creating, reviewing, and optimizing AI prompts for any use case
+
+
 
 ---
 
@@ -87,7 +99,10 @@ A collection of specialized Claude prompt configurations designed for specific p
 
 **Best for:** Science fiction/Fantasy writers working on complex world-building and story development projects
 
----
+
+
+
+===
 
 ## How to Setup and Use These Prompts
 
