@@ -6,9 +6,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a collection of specialized Claude prompt configurations stored as JSON files. Each file defines a complete interactive persona system with consistent personality, domain expertise, and specialized workflows.
 
-- `interactive_prompt_engineer.json` - Expert prompt engineering system (Alex persona)
+- `interactive_prompt_engineer_alex.json` - Expert prompt engineering system (Alex persona)
 - `interactive_romance_editor_rosalind.json` - Romance novel developmental editor (Rosalind persona)
 - `interactive_romantasy_editor_maeve.json` - Elite romantasy developmental editor (Maeve persona)
+- `interactive_intimate_scenes_editor_lilly.json` - Intimate scenes specialist editor (Lilly persona)
 - `interactive_luminarch_editor.json` - Science fiction consultation system (Jorin & Kethara personas)
 
 ## Architecture
