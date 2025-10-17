@@ -1,6 +1,6 @@
-# Claude Interactive Prompt Collection
+# Claude Interactive Editing Prompt Collection
 
-A collection of specialized Claude prompt configurations designed for specific professional use cases. Each prompt creates a complete interactive persona system with domain expertise, consistent personality, and specialized workflows.
+A collection of specialized Claude prompt configurations designed for book editing and prompt engineering. Each prompt creates a complete interactive persona system with domain expertise, consistent personality, and specialized workflows.
 
 ## Available Prompts
 
