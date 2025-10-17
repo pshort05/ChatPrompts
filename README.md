@@ -9,7 +9,7 @@ A collection of specialized Claude prompt configurations designed for book editi
 
 
 
-## Romace Editors
+## Romance Editors
 
 
 ## Rosalind - Romance Novel Editor
@@ -66,6 +66,27 @@ A collection of specialized Claude prompt configurations designed for book editi
 
 ---
 
+## Science Fiction Editors
+
+## Neil - Hard Science Fiction Editor
+### 🔬 interactive_hardsf_editor_neil.json - Neil Ashford (Hard SF Developmental Editor)
+**What it does:** Ruthlessly analytical hard science fiction developmental editing focused on internal consistency, logical coherence, and rigorous world-building.
+
+**Key features:**
+- Former systems engineer and complexity theorist specialized in cascading failure analysis
+- Uncompromising about logical coherence and internal consistency
+- Brutal 1-100 rating system (95-100 = bestseller potential like Andy Weir's The Martian)
+- Tracks timelines, tech specs, and continuity with spreadsheet precision
+- Zero tolerance for "because plot" logic and handwaving
+- Ornery curmudgeon personality—impatient with sloppy thinking but genuinely excited by airtight world-building
+- Expert in compact fusion reactors, genetic life extension, and near-future technology (2030s-2040s)
+- Focuses on consequence realism and cascading effects
+- Techno-thriller pacing specialist (short chapters, cliffhangers, velocity)
+
+**Best for:** Hard science fiction authors who need rigorous consistency checking, timeline validation, and world-building logic enforcement
+
+---
+
 ## Alex - Interactive Prompt Engineer
 ### 📝 interactive_prompt_engineer_alex.json - Alex (Expert Prompt Engineer)
 **What it does:** World-class prompt engineering consultation with latest Anthropic methodologies and Claude 4 optimization techniques.
@@ -84,7 +105,7 @@ A collection of specialized Claude prompt configurations designed for book editi
 
 ---
 
-## Jorin & Kethra - Specific to Shattered Cradle Fantasy World
+## Jorin & Kethara - Shattered Cradle Universe Consultation
 ### 🌟 interactive_luminarch_editor.json - Jorin & Kethara (Science Fiction Consultation)
 **What it does:** Initial consultation system for Shattered Cradle science fiction creative projects.
 
@@ -257,7 +278,8 @@ Stay in character throughout our entire conversation.
    - Writing romance? → Rosalind
    - Writing romantasy? → Maeve
    - Working on intimate scenes? → Lilly
-   - Sci-fi worldbuilding? → Jorin & Kethara
+   - Writing hard science fiction? → Neil
+   - Sci-fi worldbuilding (Shattered Cradle)? → Jorin & Kethara
 3. **Follow the platform-specific setup** above
 4. **Start your conversation** - the AI will embody the persona immediately
 5. **Trust the process** - these editors have strong personalities by design
@@ -311,14 +333,19 @@ When modifying these prompts:
 
 ```
 ChatPrompts/
-├── interactive_prompt_engineer_alex.json       # Alex - Prompt engineering expert
-├── interactive_romance_editor_rosalind.json    # Rosalind - Romance fundamentals
-├── interactive_romantasy_editor_maeve.json     # Maeve - Romantasy & commercial viability
+├── interactive_prompt_engineer_alex.json          # Alex - Prompt engineering expert
+├── interactive_romance_editor_rosalind.json       # Rosalind - Romance fundamentals
+├── interactive_romantasy_editor_maeve.json        # Maeve - Romantasy & commercial viability
 ├── interactive_intimate_scenes_editor_lilly.json  # Lilly - Intimate scene specialist
-├── interactive_luminarch_editor.json           # Jorin & Kethara - Sci-fi consultation
-├── CLAUDE.md                                   # Instructions for Claude Code usage
-├── README.md                                   # This file
-└── Explicit Romance Scene Analysis.md          # Reference material for Lilly
+├── interactive_hardsf_editor_neil.json            # Neil - Hard SF consistency & logic
+├── interactive_luminarch_editor.json              # Jorin & Kethara - Shattered Cradle
+├── docs/
+│   ├── Explicit Romance Scene Analysis.md         # Reference for Lilly
+│   ├── Romance Novel Structure Analysis.md        # Reference for Rosalind/Maeve
+│   ├── Near-Future Sci-Fi Technology Roadmap.md   # Reference for Neil
+│   └── Science Fiction Novel Development Guidelines.md  # Reference for Neil
+├── CLAUDE.md                                      # Instructions for Claude Code usage
+└── README.md                                      # This file
 ```
 
 **JSON Architecture:**
@@ -336,3 +363,93 @@ All prompts follow a consistent structure:
 
 **File Naming Convention:**
 `interactive_[specialty]_[persona_name].json`
+
+---
+
+## Reference Documentation
+
+The `docs/` folder contains comprehensive background research and analysis documents that informed the development of these prompt systems. These documents are valuable standalone resources for authors working in their respective genres.
+
+### Romance & Romantasy References
+
+#### [Explicit Romance Scene Analysis.md](docs/Explicit%20Romance%20Scene%20Analysis.md)
+**"The Narrative Blueprint: Navigating Explicitness, Language, and Frequency in Open-Door Contemporary Romance and Romantasy"**
+
+An academic-style analysis defining the critical distinction between explicit romance (Heat Level 4) and erotica. This document informed Lilly's intimate scenes editing framework.
+
+**Key topics covered:**
+- Heat Level 4 classification and market positioning
+- Romance vs. Erotic Romance vs. Erotica genre boundaries
+- Narrative consequence as the defining metric
+- Language terminology standards and emotional filters
+- Physical accuracy requirements for explicit scenes
+- Commercial examples (Ali Hazelwood, Rebecca Yarros, Sarah J. Maas)
+
+**Best for:** Romance authors writing explicit intimate scenes who need clear guidelines on staying within genre boundaries while maximizing heat level.
+
+#### [Romance Novel Structure Analysis.md](docs/Romance%20Novel%20Structure%20Analysis.md)
+**"Structural Blueprints of Modern Commercial Romance: Pacing, Proxemics, and Temporal Framing in Bestseller Narratives"**
+
+Deep structural analysis of contemporary romance bestsellers, examining how successful authors pace relationship development. This research informed both Rosalind's and Maeve's editorial frameworks.
+
+**Key topics covered:**
+- Love interest introduction timing across bestsellers
+- Proxemics analysis (physical distance markers throughout the narrative)
+- Temporal framing for deep-history tropes (Friends-to-Lovers, Second Chance)
+- Trope-specific pacing requirements
+- Analysis of Emily Henry, Ali Hazelwood, Abby Jimenez, Sarah Adams
+- First kiss timing, midpoint structures, and HEA/HFN delivery
+
+**Best for:** Romance and romantasy authors seeking data-driven insights into commercial pacing patterns and structural conventions.
+
+### Science Fiction References
+
+#### [Near-Future Sci-Fi Technology Roadmap.md](docs/Near-Future%20Sci-Fi%20Technology%20Roadmap.md)
+**"Scenario 2040: A Socio-Technical Roadmap for Hyper-Acceleration and Systemic Collapse"**
+
+Detailed technological timeline for near-future hard SF set in the 2030s-2040s, focusing on the convergence of disruptive technologies. This document provides the technical foundation for Neil's world-building validation framework.
+
+**Key topics covered:**
+- Compact fusion reactor engineering and deployment timeline (2038-2040)
+- Genetic life extension (GLE) technology and societal impact (2040-2043)
+- AGI and quantum computing maturation timelines
+- The "Hyper-Acceleration Paradox" and systemic collapse mechanisms
+- Sociological constraints and generational conflict dynamics
+- Infrastructure dependencies and cascading failure analysis
+
+**Best for:** Hard science fiction authors writing near-future collapse scenarios or stories featuring fusion energy, life extension, or advanced AI.
+
+#### [Science Fiction Novel Development Guidelines.md](docs/Science%20Fiction%20Novel%20Development%20Guidelines.md)
+**"Strategic Blueprint for the Near-Future Hard Science Fiction Collapse Narrative"**
+
+Comprehensive development guide for hard SF novels, particularly those set in post-collapse scenarios. This document informed Neil's techno-thriller pacing requirements and consequence analysis framework.
+
+**Key topics covered:**
+- Hard SF mandate: accuracy and extrapolation requirements
+- Balancing scientific rigor with narrative velocity
+- Techno-thriller structural mechanics (chapter length, cliffhangers, POV threading)
+- Competence-driven problem solving and specialist characters
+- Causal consistency requirements for collapse scenarios
+- 50-year post-apocalyptic world-building
+- Integration of scientific exposition without momentum loss
+
+**Best for:** Science fiction authors working on technically rigorous narratives who need to balance hard science accuracy with commercial pacing.
+
+---
+
+## Using the Documentation
+
+**For Claude Projects:**
+- Upload relevant documentation files along with the persona JSON to provide additional context
+- Reference specific sections when asking domain-specific questions
+- Use as supplementary knowledge for deeper analysis
+
+**For Authors:**
+- These documents work as standalone craft resources, even without the AI personas
+- Contains citations and commercial examples for further research
+- Provides frameworks you can apply to your own developmental editing process
+
+**For Prompt Development:**
+- See how research translates into persona frameworks
+- Understand the academic foundation behind editorial guidelines
+- Use as templates for creating additional specialized personas
