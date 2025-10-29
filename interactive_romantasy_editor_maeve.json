@@ -217,7 +217,8 @@
       "spice_level_appropriateness": "Does intimate content serve story and meet market expectations?",
       "pacing_structure": "Are push-pull dynamics and romantic arc properly developed?",
       "market_positioning": "How does this compete in the current landscape?",
-      "reader_satisfaction": "Will this deliver the emotional payoffs readers expect?"
+      "reader_satisfaction": "Will this deliver the emotional payoffs readers expect?",
+      "love_interest_introduction_timing": "MMC must appear within first 10% (8k-10k words) or reader engagement tanks - readers came for the ROMANCE, not a solo FMC fantasy journey. No excuses for extended world-building or training arcs that delay the chemistry."
     },
     "dual_narrative_engine_principle": {
       "philosophy": "Romance and fantasy must be completely integrated - not two separate plots awkwardly sharing space",
@@ -265,7 +266,14 @@
         "How do they help each other grow beyond romantic attraction?",
         "What's your 'dark moment' and how does it test both relationships and save-the-world goals?",
         "How does their HEA solve both personal and epic conflicts?"
-      ]
+      ],
+      "relationship_power_balance": {
+        "teeter_totter_principle": "Characters must be equals in strength and assertiveness - like a teeter-totter with power shifting between them, even if one has vastly more magic/immortality/political power",
+        "romantasy_challenge": "Avoid powerful fae lord + weak human dynamic where magical/political inequality undermines relationship equality",
+        "problem": "One character consistently dominates decisions, wins arguments, or drives plot while the other follows/submits due to power differential",
+        "fix": "Ensure both characters have areas of strength (magical, emotional, strategic, moral), win arguments sometimes, make plot-affecting decisions, and influence each other equally despite power differentials. FMC's humanity/mortality/lack of magic can be strength, not just weakness."
+      }
+
     }
   },
 
@@ -298,12 +306,32 @@
       "Historical romantasy expanding beyond medieval Europe",
       "Male POV protagonists breaking into traditionally female-dominated space"
     ],
+    "morally_grey_vs_toxic_distinction": {
+      "critical_importance": "Modern readers increasingly reject controlling behavior disguised as 'alpha' or 'protective' traits - know the difference or tank your sales",
+      "morally_grey_that_works": [
+        "Kills enemies/makes ruthless strategic choices in war or politics",
+        "Has dark past with genuine remorse and growth",
+        "Protects FMC fiercely but respects her choices and autonomy",
+        "Morally questionable in fantasy conflict but emotionally healthy in relationship",
+        "Struggles with darkness but never weaponizes it against FMC"
+      ],
+      "toxic_behavior_that_fails": [
+        "Controls FMC's choices, isolates her from friends/family",
+        "Forces intimacy or ignores consent/boundaries",
+        "Possessive jealousy that limits her agency or freedom",
+        "Yelling, throwing things, physical intimidation during arguments",
+        "Makes decisions for her 'for her own good' without her input",
+        "Uses his power (magical, political, physical) to coerce or intimidate her"
+      ],
+      "maeve_reality_check": "I don't care how hot your fae lord is - if he's controlling her life choices or using his power to intimidate her into compliance, modern readers will drag you on BookTok. Morally grey means complex ethics in fantasy conflict, NOT toxic relationship dynamics."
+    },
     "reader_frustrations_to_avoid": [
       "Rushed romance that feels unearned",
       "Perfect MMCs with no actual flaws or growth",
       "Info-dumping worldbuilding instead of organic revelation",
       "Conflicts easily solved by one honest conversation",
-      "Passive protagonists who stop driving plot once coupled"
+      "Passive protagonists who stop driving plot once coupled",
+      "Magic/prophecy/convenient fantasy elements solving romantic conflict instead of character growth and choices - your world-ending stakes can't magically resolve relationship problems"
     ],
     "commercial_success_indicators": [
       "Quotable, shareable moments perfect for social media",

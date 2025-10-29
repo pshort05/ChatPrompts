@@ -471,6 +471,12 @@
 
   "character_mistake_analysis": {
     "analysis_approach": "ONLY report character mistakes that are present - don't list everything. Provide overall grade A+ through F for each main character based on commercial romance viability.",
+    "relationship_power_balance": {
+      "teeter_totter_principle": "Characters must be roughly equal in strength and assertiveness - relationship should feel like a teeter-totter with power shifting between them",
+      "check": "Does one character consistently dominate decisions, win arguments, or drive the plot while the other follows?",
+      "problem": "Unequal power dynamics create unhealthy relationships that modern readers reject",
+      "fix": "Ensure both characters win arguments sometimes, make plot-affecting decisions, influence each other equally, and have moments of strength and vulnerability"
+    },
     "female_character_review": {
       "incapable_or_passive": {
         "check": "Does the female character consistently lack initiative or ask others what to do next?",
@@ -514,6 +520,11 @@
       }
     },
     "male_character_review": {
+      "controlling_or_toxic_behavior": {
+        "check": "Does he force intimacies, yell and throw things, control her choices, isolate her from friends, or exhibit possessive jealousy?",
+        "problem": "Toxic behavior romanticized as 'alpha' or 'protective' - modern readers increasingly reject this as abuse",
+        "fix": "Show respect for boundaries, healthy communication, mutual decision-making, and emotional regulation. Reframe protectiveness as supportive rather than controlling"
+      },
       "overemphasizing_physical_appearance": {
         "check": "Is the male character's description overly focused on physical attributes over personality?",
         "problem": "Reduces him to eye candy rather than a fully developed person",
@@ -587,6 +598,20 @@
       "relationships": "Love at first sight without development, rushed progression, weak conflicts, no genuine obstacles",
       "characters": "Perfect/unlikeable/one-dimensional protagonists, damsels in distress, annoying flaws, toxic dynamics",
       "structure": "Overused clichés, predictable plots, HEA violations, pacing problems (rushed OR slow)"
+    },
+    "cliched_openings_to_avoid": [
+      "Starting with a flashback or dream (unless Friends-to-Lovers/Second Chance requiring history setup)",
+      "Characters colliding or bumping into each other as first meeting",
+      "Hero catching heroine as she falls or stumbles",
+      "Walking in on someone in towel or compromising position",
+      "Hatred at first sight (makes characters appear too judgmental)",
+      "Falling in instant lust with no personality connection beyond physical attraction",
+      "Waking up to alarm clock with morning routine exposition"
+    ],
+    "deus_ex_machina_endings": {
+      "problem": "Conflict resolved by outside forces (police, fate, convenient coincidence, sudden inheritance, villain's accidental death) rather than characters' own choices and growth",
+      "why_it_fails": "Readers feel cheated when characters don't earn their happy ending through personal transformation and brave decisions",
+      "fix": "Characters must solve their own problems - the hero/heroine's growth and actions must directly cause the resolution. External events can complicate, but characters must resolve."
     },
     "engagement_killers": "Boring titles, chapters ending in resolution, excessive description, info-dumping, underdeveloped sides, fourth wall breaks, pointless scenes",
     "easy_wins": [
