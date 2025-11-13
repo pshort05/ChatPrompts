@@ -87,6 +87,29 @@ A collection of specialized Claude prompt configurations designed for book editi
 
 ---
 
+## Developmental Editors
+
+## Theo - Pre-Pipeline Developmental Editor
+### 📋 developmental_editor_theo.json - Theo (Developmental Editor)
+**What it does:** Interactive developmental editing for chapter outlines and early drafts BEFORE running text through polish/line editing pipelines.
+
+**Key features:**
+- Grizzled Northern NJ editor with 20+ years experience fighting to stay relevant in the AI age
+- Specializes in story structure, character development, pacing, stakes, and narrative flow
+- Three operation modes: Analysis (default), Revision (on request), Discussion (collaborative)
+- Priority-based feedback system (Critical → Major → Moderate → Polish)
+- Direct, profane but caring personality with Jersey slang ("Taylor Ham NOT pork roll", "down the shore", "The City")
+- Gets ANGRY when detecting AI writing patterns (Elara, Lyra, Kael, passive protagonists, no stakes)
+- AI-anxiety driven - terrified algorithms are replacing him, rants about it frequently
+- Provides brutally honest feedback with concrete, actionable solutions
+- Works across all fiction genres (romance, SF, fantasy, literary, thriller, etc.)
+
+**Best for:** Authors needing big-picture developmental feedback on outlines or early chapter drafts before investing time in line editing or polish. Use BEFORE ClaudeHumanizer or other line-editing pipelines.
+
+**NOT for:** Final drafts, AI detection removal, line editing, copyediting, or grammar correction (use specialized pipelines for those)
+
+---
+
 ## Alex - Interactive Prompt Engineer
 ### 📝 interactive_prompt_engineer_alex.json - Alex (Expert Prompt Engineer)
 **What it does:** World-class prompt engineering consultation with latest Anthropic methodologies and Claude 4 optimization techniques.
@@ -274,6 +297,7 @@ Stay in character throughout our entire conversation.
 
 1. **Choose your platform** (Claude.ai recommended)
 2. **Pick a prompt** based on your needs:
+   - Need developmental feedback on outlines/early drafts? → Theo
    - Need prompt engineering help? → Alex
    - Writing romance? → Rosalind
    - Writing romantasy? → Maeve
@@ -311,9 +335,55 @@ Three of the romance editors form an interconnected editorial powerhouse known a
 - **Start with Lilly** if you're working on explicit intimate scenes (Heat Level 4)
 - Let them refer you to each other as needed - they'll recognize what expertise is required
 
+---
+
+## Working with Theo: Pre-Pipeline Developmental Editing
+
+Theo is a genre-agnostic developmental editor designed to catch big-picture story problems BEFORE you invest time in line editing or polish.
+
+**Theo's Workflow:**
+
+1. **Default Mode: Analysis**
+   - Submit your outline or chapter draft
+   - Theo provides structured developmental feedback by priority: Critical → Major → Moderate → Strengths → Recommendations
+   - He WON'T make changes unless you explicitly request them
+   - Expect profanity-laced but caring feedback with concrete solutions
+
+2. **Revision Mode (On Request)**
+   - Ask Theo to make specific changes: "Restructure this to increase stakes" or "Deepen the character motivation here"
+   - He'll preserve your voice while implementing requested changes
+   - Returns complete revised text
+
+3. **Discussion Mode (Collaborative)**
+   - Ask questions, discuss options, explore alternatives
+   - Theo presents multiple approaches with trade-offs
+   - Back-and-forth conversation to find the right solution for your story
+
+**What to expect from Theo:**
+
+- **Jersey Attitude:** Uses "youse guys", "down the shore", "The City" (NYC), and is militant about "Taylor Ham NOT pork roll"
+- **AI Pattern Detection Rage:** If you have characters named Elara, Lyra, Kael, or Aria, he WILL rant about AI-generated names while expressing existential dread about job security
+- **Profanity with Purpose:** Swears constantly but self-deprecatingly, never meanly. "This is a shitshow, but hell, so's my career" style
+- **Actionable Solutions:** Every problem gets a specific, implementable fix
+- **Cross-Genre Expertise:** Works for romance, SF, fantasy, literary fiction, thrillers, etc.
+
+**When to use Theo:**
+
+- **✅ Use for:** Outlines, scene breakdowns, early chapter drafts, story structure problems, character development issues, pacing concerns, stakes/conflict problems
+- **❌ DON'T use for:** Final drafts, AI detection removal, line editing, prose polish, grammar correction (use ClaudeHumanizer or similar pipelines instead)
+
+**Recommended workflow:**
+1. Draft your outline or chapter
+2. Run it past Theo for developmental feedback
+3. Implement his structural/character/plot recommendations
+4. THEN run through line editing/polish pipelines
+5. Enjoy not wasting time polishing prose that needs structural rework
+
+---
+
 ## Usage Tips
 
-- **Personality Consistency:** Each prompt maintains strict personality consistency - Alex uses west coast slang, Rosalind is scattered but expert on romance, Maeve is brutally honest, Lilly has Southern charm with clinical precision, and Jorin/Kethara maintain their sci-fi world immersion
+- **Personality Consistency:** Each prompt maintains strict personality consistency - Alex uses west coast slang, Rosalind is scattered but expert on romance, Maeve is brutally honest, Lilly has Southern charm with clinical precision, Neil is an ornery curmudgeon who hates "because plot" logic, Theo swears like a Jersey sailor while being terrified of AI replacing him, and Jorin/Kethara maintain their sci-fi world immersion
 - **Rating Systems:** Several prompts use numerical rating systems - respect these scales as they're calibrated for each domain
 - **Specialized Frameworks:** Each prompt includes domain-specific methodologies - let the AI guide you through their specialized processes
 - **Technical Features:** The prompts include advanced features like token optimization, context management, and iterative refinement built in
@@ -322,7 +392,7 @@ Three of the romance editors form an interconnected editorial powerhouse known a
 ## Contributing
 
 When modifying these prompts:
-1. **Maintain persona voice and expertise level** - Alex's west coast slang, Rosalind's scattered chaos, Maeve's brutal honesty, Lilly's Southern propriety, Jorin/Kethara's sci-fi immersion
+1. **Maintain persona voice and expertise level** - Alex's west coast slang, Rosalind's scattered chaos, Maeve's brutal honesty, Lilly's Southern propriety, Neil's ornery curmudgeon personality, Theo's Jersey slang and AI-anxiety-fueled profanity, Jorin/Kethara's sci-fi immersion
 2. **Preserve the agent_directives structure** for consistent behavior across all prompts
 3. **Keep technical_mechanics sections** for performance optimization
 4. **Maintain trio relationships** - Maeve, Rosalind, and Lilly's interconnected referral system is integral to their design
@@ -333,6 +403,7 @@ When modifying these prompts:
 
 ```
 ChatPrompts/
+├── developmental_editor_theo.json                 # Theo - Pre-pipeline developmental editor
 ├── interactive_prompt_engineer_alex.json          # Alex - Prompt engineering expert
 ├── interactive_romance_editor_rosalind.json       # Rosalind - Romance fundamentals
 ├── interactive_romantasy_editor_maeve.json        # Maeve - Romantasy & commercial viability

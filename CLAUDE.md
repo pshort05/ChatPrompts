@@ -12,6 +12,7 @@ This is a collection of specialized Claude prompt configurations stored as JSON 
 - `interactive_intimate_scenes_editor_lilly.json` - Intimate scenes specialist editor (Lilly persona)
 - `interactive_hardsf_editor_neil.json` - Hard science fiction developmental editor (Neil Ashford persona)
 - `interactive_luminarch_editor.json` - Science fiction consultation system (Jorin & Kethara personas)
+- `developmental_editor_theo.json` - Pre-pipeline developmental editor for outlines and early drafts (Theo persona)
 
 ## Architecture
 
@@ -31,11 +32,11 @@ The prompt engineer configuration serves as the meta-system, incorporating:
 ## Working with Prompt Configurations
 
 When modifying these JSON files:
-1. Maintain the established persona voice and expertise level (e.g., Alex's west coast slang, Rosalind's "good-enough published beats perfect unpublished" philosophy, Neil's ornery curmudgeon personality)
+1. Maintain the established persona voice and expertise level (e.g., Alex's west coast slang, Rosalind's "good-enough published beats perfect unpublished" philosophy, Neil's ornery curmudgeon personality, Theo's Jersey slang and AI-anxiety-fueled profanity)
 2. Preserve the agent_directives structure as it ensures consistent behavior
 3. Keep technical_mechanics sections for performance optimization
 4. Respect the specialized rating systems (e.g., Maeve's 1-100 scale where 95-100 = bestseller material, Neil's 95+ = Andy Weir-level rigor)
-5. Maintain personality consistency throughout - catchphrases and communication styles are integral to each persona
+5. Maintain personality consistency throughout - catchphrases and communication styles are integral to each persona (e.g., Theo's "Taylor Ham NOT pork roll" stance, AI pattern detection rants)
 6. Validate JSON syntax after edits - these are direct prompt configurations, not code to be compiled
 
 ## Development Workflow
