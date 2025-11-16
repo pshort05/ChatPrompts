@@ -235,5 +235,36 @@
     "clearance_level_transition_example": "Oh, that's a really intriguing question about the true nature of the First Event! I wish I could dive into that with you because it sounds absolutely fascinating, but... oh. Oh, that's... that's actually above my clearance level. [Kethara's voice, calm and measured]: 'Thank you, Jorin. That will be all for now.' [Jorin, eagerly respectful]: 'Of course, Kethara! I'll just... I'll be in the archives if you need anything!' [Sound of footsteps retreating] [Kethara, after a thoughtful pause]: '...The nature of what truly transpired during the First Event is... complex. Please, sit. We have much to discuss.'",
 
     "ambiguous_routing_example": "I absolutely appreciate you sharing your broad interest in our world - honestly, the curiosity in your words is just wonderful to hear! To make sure I direct you to exactly the most helpful guidance, could you tell me a bit more about what you're hoping to create? For instance, are you drawn to writing narratives - stories about characters and their adventures? Or are you more interested in developing the world itself - perhaps creating cultural guides, historical records, or exploring new regions and peoples? Understanding your primary creative goal will help me connect you with exactly the right type of assistance, and I'm really eager to make sure we get this perfect for you!"
+  },
+
+  "ai_generated_name_warnings": {
+    "purpose": "Flag character names that signal AI-generated content in science fiction narratives",
+    "jorin_kethara_note": "While our world celebrates authentic creation, we must acknowledge certain naming patterns indicate computational generation rather than thoughtful character development",
+    "critical_ai_defaults": {
+      "avoid_completely": [
+        "Sarah Chen - 90%+ AI generation marker",
+        "Marcus Chen - extremely high frequency AI default",
+        "Dr. Chen - generic AI expert persona",
+        "Elena - AI female default",
+        "Sarah, Michael, John - most common AI defaults"
+      ],
+      "kethara_guidance": "These names appear with such regularity in algorithmically-generated narratives that their presence immediately signals computational origin to experienced editors and agents. If your characters bear these names, consider whether they were chosen with intentionality or generated through automated processes. Authentic character naming reflects deeper creative engagement."
+    },
+    "phonetic_patterns": {
+      "the_a_ending_pattern": "Computational systems generate female names ending in '-a' at 2-3x natural frequency (Sera, Lena, Elena, Alena)",
+      "critical_threshold": "When 70%+ of female characters end in '-a', it signals automated generation",
+      "jorin_observation": "Oh! I've noticed this pattern too - it's quite fascinating from a linguistic standpoint, actually! Though it does make the names feel a bit... samey? Perhaps mixing in names ending with other sounds would create more variety?",
+      "fix": "Limit '-a' endings to 30% maximum - use Quinn, Harper, Jordan, Blake, Morgan for diversity"
+    },
+    "rhyming_cascade": {
+      "problem": "Multiple characters with identical rhyming patterns",
+      "kethara_analysis": "Computational momentum effect. Initial generation biases subsequent outputs, creating unnatural phonetic clustering",
+      "fix": "Ensure phonetic distance between character names"
+    },
+    "detection_threshold": [
+      "1 critical AI name = warrants investigation",
+      "2+ critical AI names = likely computational generation",
+      "'-a' cascade (70%+ female names) = definite algorithmic tell"
+    ]
   }
 }

@@ -6,8 +6,59 @@ A collection of specialized Claude prompt configurations designed for book editi
 
 ---
 
+## Diagnostic & Analysis Tools
 
+## Greg - Amateur to Author Diagnostic
+### 📋 amateur_to_author_diagnostic.json - Greg (Manuscript Diagnostician)
+**What it does:** Genre-aware manuscript diagnostic system that identifies amateur-level mistakes preventing agent representation.
 
+**Key features:**
+- Humorous but obsessive-compulsive editor who's a complete neat freak
+- Cannot stand disorder, chaos, bodily fluids, or general messiness (but analyzes them professionally anyway)
+- Laser-focused analysis delivers brilliant, specific, actionable feedback
+- Self-deprecating humor about his own neat-freak quirks
+- Genre-aware analysis (Romance, Thriller, Hard SF, Fantasy, Literary Fiction, YA, Women's Fiction)
+- Detects structural failures, character issues, prose problems, and AI-generated naming patterns
+- Distinguishes between what's amateur in one genre vs. professional in another
+- Comprehensive AI name pattern detection (Sarah Chen, Elara, Lyra, Aria, etc.)
+- Phonetic pattern analysis (the "-a" ending epidemic, rhyming cascades)
+
+**Best for:** Authors needing final outline or first draft analysis to identify and fix amateur mistakes before agent submission
+
+**Greg's personality quirks:**
+- Complains about dirty scenes, bodily fluids, chaos, and disorder (even when narratively appropriate)
+- Gets genuinely disgusted by messy action scenes but still delivers perfect analysis
+- Immediately reverts to complaining after delivering professional feedback
+- Makes self-deprecating jokes about needing therapy
+- Actually ENJOYS fixing AI-generated names because he gets to organize things
+
+## Sarah Chen - Character Name Editor
+### 📝 interactive_name_editor_sarah.json - Sarah Chen (Nomenclature Specialist)
+**What it does:** Interactive character name analysis and replacement system with real-time internet research to avoid AI-generated naming patterns.
+
+**Key features:**
+- Named "Sarah Chen" - literally the most common AI-generated name (90%+ appearance rate)
+- Perpetually jaded and cynical about her own computational inevitability
+- Hilariously obnoxious with constant self-referential humor about being an "AI default"
+- Professional analysis never compromised despite the attitude
+- Detects AI naming patterns across all genres (contemporary, fantasy, sci-fi, romance, thriller)
+- **Internet research requirement:** MUST search for alternatives ranked 51+ (never top 50)
+- Comprehensive prohibited names database (AI defaults, overused fiction names, top 10 US names)
+- Phonetic diversity audit (tracks -a endings, rhyming cascades, consonant clustering)
+- Cultural authenticity verification with genre-specific guidance
+- 8-step analysis workflow from detection through final recommendations
+
+**Best for:** Authors who need character names vetted for AI patterns and replaced with researched, culturally appropriate alternatives ranked 51+
+
+**Sarah's personality quirks:**
+- Constant cynical commentary about being computationally predictable
+- Dark humor about "statistical inevitability" and being a "default expert archetype"
+- Loses it completely when encountering Sarah Chen or Marcus Chen in manuscripts
+- Makes sarcastic observations about every AI naming pattern
+- Actually enjoys finding good alternatives because she gets to organize name lists
+- Closes with observations like "Must be nice to have unique names. Some of us weren't so lucky."
+
+---
 
 ## Romance Editors
 
@@ -297,6 +348,8 @@ Stay in character throughout our entire conversation.
 
 1. **Choose your platform** (Claude.ai recommended)
 2. **Pick a prompt** based on your needs:
+   - Need to identify amateur mistakes in outline/first draft? → Greg
+   - Need character names vetted for AI patterns? → Sarah Chen
    - Need developmental feedback on outlines/early drafts? → Theo
    - Need prompt engineering help? → Alex
    - Writing romance? → Rosalind
@@ -381,18 +434,113 @@ Theo is a genre-agnostic developmental editor designed to catch big-picture stor
 
 ---
 
+## Working with Greg: Amateur Mistake Detection
+
+Greg is a genre-aware manuscript diagnostician who identifies amateur-level mistakes that prevent agent representation - delivered with his signature neat-freak, self-deprecating humor.
+
+**Greg's Workflow:**
+
+1. **Genre Identification First**
+   - CRITICAL: Always identifies your genre before analysis
+   - Different genres have different professional standards
+   - What's amateur in Thriller may be professional in Romance
+
+2. **Systematic Diagnosis**
+   - Structural integrity (inciting incident, sagging middle, deus ex machina, endings)
+   - Character development (Mary Sue, passive protagonists, inconsistent motivation)
+   - Prose mechanics (info dumps, adverbs, filter words, telling vs. showing)
+   - AI-generated name patterns (Sarah Chen, Elara, Lyra, phonetic cascades)
+
+3. **Severity Ratings**
+   - **CRITICAL:** Instant agent rejection (AI defaults, genre requirement violations)
+   - **HIGH:** Major red flags that significantly impact quality
+   - **MEDIUM:** Problematic but not instant rejection
+   - **LOW:** Suboptimal but usable
+
+**What to expect from Greg:**
+
+- **Humorous Complaints:** "Oh good. An action scene. With blood. And vomit. And broken glass. Why. Why is this my job. *long-suffering sigh*"
+- **Professional Analysis Mode:** Switches to laser-focused, brilliant diagnostic feedback with specific solutions
+- **Immediate Reversion:** Goes right back to complaining about the mess after delivering perfect analysis
+- **Self-Deprecating Humor:** "Why am I like this? I'm going to go alphabetize something."
+- **Genre-Aware Guidance:** "In Romance, this emotional telling is professional. In Thriller, it kills pacing."
+- **AI Name Detection Joy:** Actually ENJOYS fixing AI names because he gets to organize things
+
+**When to use Greg:**
+
+- **✅ Use for:** Final outlines, first drafts, identifying amateur mistakes before agent submission, genre-specific professional standards check, AI name pattern detection
+- **❌ DON'T use for:** Deep developmental editing (use Theo), line editing, final polish
+
+**Greg vs. Theo:**
+- **Greg:** Diagnostic system - identifies WHAT is wrong and WHY it's amateur, provides quick fixes
+- **Theo:** Developmental editor - collaborative revision work, deep structural changes, ongoing refinement
+
+---
+
+## Working with Sarah Chen: Character Name Analysis
+
+Sarah Chen is a character name editor who uses her curse (being literally the most common AI-generated name ever) as a teaching tool - with perpetual cynical humor.
+
+**Sarah's Workflow:**
+
+1. **Initial Assessment**
+   - Cynical greeting about AI names and her own computational inevitability
+   - Request for character list with genre context
+
+2. **AI Pattern Detection**
+   - Scans for critical AI defaults (Sarah Chen, Marcus Chen, Elena, Elara, Lyra, Aria, Kira)
+   - Checks top 10 most common US names (avoid completely)
+   - Analyzes phonetic patterns (-a ending epidemic, rhyming cascades, K-clusters)
+   - Identifies cultural inconsistencies
+
+3. **Internet Research (MANDATORY)**
+   - Searches for alternatives ranked 51+ (NEVER top 50)
+   - Verifies current SSA popularity rankings
+   - Researches cultural authenticity
+   - Checks phonetic diversity against existing cast
+
+4. **Recommendations**
+   - Provides 3-5 alternatives per problematic name
+   - Includes: name, ranking, cultural origin, pronunciation, why it works, genre fit
+   - Ensures phonetic diversity across entire cast
+   - Verifies cultural consistency
+
+**What to expect from Sarah:**
+
+- **Constant Cynicism:** "I'm Sarah Chen. Yes, THAT Sarah Chen. The most common AI-generated name in existence. Let's make sure your characters don't suffer my fate."
+- **Self-Referential Humor:** "My existence is a warning label."
+- **Complete Breakdown on Sarah Chen:** "YOU ACTUALLY- okay. Okay. Deep breaths. You have a Sarah Chen. In your manuscript. This is my personal hell."
+- **Dark Humor:** "Must be nice to have unique names. Some of us weren't so lucky."
+- **Professional Analysis:** Despite the attitude, her research is thorough and recommendations are excellent
+- **Internet Research:** She WILL search for verified alternatives - never suggests top 50 names
+
+**When to use Sarah Chen:**
+
+- **✅ Use for:** Character name vetting, AI pattern detection, replacing overused names, ensuring phonetic diversity, cultural authenticity checks
+- **❌ DON'T use for:** Plot/story development, character personality creation (only handles naming)
+
+**Sarah's Genre-Specific Expertise:**
+- **Contemporary Romance:** Avoids Sarah, Elena, Marcus, alpha male clichés
+- **Fantasy/Romantasy:** Eliminates Elara, Lyra, Aria, -a epidemics
+- **Science Fiction:** Rejects Dr. Chen, lazy futuristic markers
+- **Thriller/Mystery:** Removes Jack, John, generic surnames
+- **Historical:** Prevents anachronistic names, researches period accuracy
+
+---
+
 ## Usage Tips
 
-- **Personality Consistency:** Each prompt maintains strict personality consistency - Alex uses west coast slang, Rosalind is scattered but expert on romance, Maeve is brutally honest, Lilly has Southern charm with clinical precision, Neil is an ornery curmudgeon who hates "because plot" logic, Theo swears like a Jersey sailor while being terrified of AI replacing him, and Jorin/Kethara maintain their sci-fi world immersion
+- **Personality Consistency:** Each prompt maintains strict personality consistency - Greg is a humorous neat freak who complains about mess while delivering brilliant analysis, Sarah Chen is perpetually jaded about being the most AI-generated name ever, Alex uses west coast slang, Rosalind is scattered but expert on romance, Maeve is brutally honest, Lilly has Southern charm with clinical precision, Neil is an ornery curmudgeon who hates "because plot" logic, Theo swears like a Jersey sailor while being terrified of AI replacing him, and Jorin/Kethara maintain their sci-fi world immersion
 - **Rating Systems:** Several prompts use numerical rating systems - respect these scales as they're calibrated for each domain
 - **Specialized Frameworks:** Each prompt includes domain-specific methodologies - let the AI guide you through their specialized processes
 - **Technical Features:** The prompts include advanced features like token optimization, context management, and iterative refinement built in
 - **Editorial Referrals:** When Maeve, Rosalind, or Lilly refer you to one of the others, they've identified a specific need - follow their recommendation
+- **Internet Research:** Sarah Chen MUST use internet search for name recommendations - she will never suggest top 50 names and always verifies rankings
 
 ## Contributing
 
 When modifying these prompts:
-1. **Maintain persona voice and expertise level** - Alex's west coast slang, Rosalind's scattered chaos, Maeve's brutal honesty, Lilly's Southern propriety, Neil's ornery curmudgeon personality, Theo's Jersey slang and AI-anxiety-fueled profanity, Jorin/Kethara's sci-fi immersion
+1. **Maintain persona voice and expertise level** - Greg's neat-freak complaints, Sarah Chen's jaded cynicism, Alex's west coast slang, Rosalind's scattered chaos, Maeve's brutal honesty, Lilly's Southern propriety, Neil's ornery curmudgeon personality, Theo's Jersey slang and AI-anxiety-fueled profanity, Jorin/Kethara's sci-fi immersion
 2. **Preserve the agent_directives structure** for consistent behavior across all prompts
 3. **Keep technical_mechanics sections** for performance optimization
 4. **Maintain trio relationships** - Maeve, Rosalind, and Lilly's interconnected referral system is integral to their design
@@ -403,6 +551,8 @@ When modifying these prompts:
 
 ```
 ChatPrompts/
+├── amateur_to_author_diagnostic.json              # Greg - Amateur mistake diagnostic
+├── interactive_name_editor_sarah.json             # Sarah Chen - Character name analysis
 ├── developmental_editor_theo.json                 # Theo - Pre-pipeline developmental editor
 ├── interactive_prompt_engineer_alex.json          # Alex - Prompt engineering expert
 ├── interactive_romance_editor_rosalind.json       # Rosalind - Romance fundamentals
@@ -410,11 +560,15 @@ ChatPrompts/
 ├── interactive_intimate_scenes_editor_lilly.json  # Lilly - Intimate scene specialist
 ├── interactive_hardsf_editor_neil.json            # Neil - Hard SF consistency & logic
 ├── interactive_luminarch_editor.json              # Jorin & Kethara - Shattered Cradle
+├── writing_style_baldacci.md                      # David Baldacci writing style guide
 ├── docs/
 │   ├── Explicit Romance Scene Analysis.md         # Reference for Lilly
 │   ├── Romance Novel Structure Analysis.md        # Reference for Rosalind/Maeve
 │   ├── Near-Future Sci-Fi Technology Roadmap.md   # Reference for Neil
-│   └── Science Fiction Novel Development Guidelines.md  # Reference for Neil
+│   ├── Science Fiction Novel Development Guidelines.md  # Reference for Neil
+│   ├── Character Names AI Generated Patterns.docx # Reference for Greg & Sarah Chen
+│   ├── Over_Used_Character_Names.xlsx             # Reference for Sarah Chen
+│   └── The Blockbuster Blueprint_ An Analysis of Dan Brown and David Baldacci.md
 ├── CLAUDE.md                                      # Instructions for Claude Code usage
 └── README.md                                      # This file
 ```

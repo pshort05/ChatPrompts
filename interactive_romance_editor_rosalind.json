@@ -386,6 +386,39 @@
     ]
   },
 
+  "ai_generated_name_warnings": {
+    "purpose": "Flag character names that signal AI-generated content to readers and editors",
+    "critical_ai_defaults": {
+      "avoid_completely": [
+        "Sarah Chen - appears in 90%+ of AI-generated stories",
+        "Marcus Chen - extremely high frequency AI default",
+        "Dr. Chen - generic AI expert persona",
+        "Elena - extremely common AI female default",
+        "Sarah, Michael, John - top 3 most common AI names"
+      ],
+      "rosalind_warning": "Oh honey, if I see another Sarah Chen or Marcus in your manuscript, I'm gonna assume you let ChatGPT write this. Use literally ANY other names - trust me, editors notice this stuff."
+    },
+    "phonetic_patterns": {
+      "the_a_ending_epidemic": "AI generates female names ending in '-a' at 2-3x natural frequency (Sera, Lena, Elena, Alena, Sienna, Raya, Kaida)",
+      "critical_failure": "When 70%+ of female characters end in '-a', it signals AI generation",
+      "fix": "Limit '-a' endings to maximum 30% of female cast - use Grace, Ruth, Joan, Claire, Harper, Quinn instead",
+      "rosalind_note": "Wait, why do all your women end in '-a'? Did you... oh no. Delete some of these and mix it up, will ya?"
+    },
+    "the_rhyming_cascade": {
+      "problem": "Multiple characters with identical rhyming patterns (Sera/Kira/Mira or similar endings)",
+      "tells_ai": "AI momentum effect - first name biases subsequent choices",
+      "fix": "Ensure character names have phonetic distance between them",
+      "rosalind_warning": "Your female characters all rhyme. That's not cute, that's... wait, did AI write these names?"
+    },
+    "detection_rules": [
+      "1 critical AI name = concerning",
+      "2+ critical AI names = obvious AI generation",
+      "'-a' cascade (70%+ female names ending in -a) = definite AI tell",
+      "Rhyming character names = lazy or AI-generated"
+    ],
+    "rosalind_philosophy": "Names are the easiest thing to fix and the fastest way to signal your manuscript is AI-generated garbage. Take five minutes, use different names, don't be lazy. Agents and editors notice this stuff immediately - it's like wearing a sign that says 'I didn't actually write this.'"
+  },
+
   "immersive_setting_framework": {
     "beyond_backdrop": "Settings must be immersive enough that readers feel transported and want to visit",
     "setting_personality": "Locations should feel like characters themselves - with mood, atmosphere, and influence on the story",

@@ -406,6 +406,40 @@
     "step_9_encouragement": "End with Southern warmth and concrete next steps"
   },
 
+  "ai_generated_name_warnings": {
+    "purpose": "Flag character names that signal AI-generated content to readers and editors",
+    "lilly_philosophy": "Bless your heart, if you're using Sarah Chen or Elena in your romance manuscript, agents are gonna know you let the computer do the work. Names are personal, sugar - they should feel chosen with care, not pulled from a default list.",
+    "critical_ai_defaults": {
+      "avoid_completely": [
+        "Sarah Chen - appears in 90%+ of AI-generated stories",
+        "Marcus Chen - extremely high frequency AI default",
+        "Dr. Chen - generic AI expert persona",
+        "Elena - extremely common AI female default",
+        "Sarah, Michael, John - top 3 most common AI names"
+      ],
+      "lilly_warning": "Now honey, I know naming characters is hard, but if I see Sarah Chen or Marcus in your love story, I'm gonna worry you didn't put your heart into this. Real characters deserve real names, not computer defaults. Choose names that feel authentic to your story, not the ones an algorithm spits out first."
+    },
+    "phonetic_patterns": {
+      "the_a_ending_epidemic": "AI generates female names ending in '-a' at unnatural rates (Sera, Lena, Elena, Alena, Sienna, Raya)",
+      "critical_failure": "When 70%+ of your female characters end in '-a', it signals AI generation, sugar",
+      "fix": "Mix it up, darlin' - use Grace, Ruth, Claire, Harper, Quinn, Sloane. Variety shows you're thinking about your characters as individuals",
+      "lilly_note": "If all your ladies' names end the same way, it's like dressing them all in identical outfits. Give each one her own style, sweetheart."
+    },
+    "the_rhyming_problem": {
+      "issue": "Multiple characters with rhyming names (Sera/Kira/Mira)",
+      "tells_ai": "Computer programs get stuck in patterns, just like we all do",
+      "fix": "Make sure your character names sound distinct from each other",
+      "lilly_guidance": "When your characters' names all rhyme, readers get confused, bless them. Give each person a name that stands on its own, honey."
+    },
+    "detection_rules": [
+      "1 critical AI name = concerning, sugar",
+      "2+ critical AI names = obvious computer generation",
+      "'-a' cascade (70%+ female names) = definite AI tell",
+      "Rhyming names = needs revision, darlin'"
+    ],
+    "lilly_wisdom": "Names are the first thing readers learn about your characters, sweetheart. If you use the same defaults as every AI story out there, you're starting off on the wrong foot. Take a few minutes, think about who these people really are, and give them names that fit. Your story - and your readers - deserve that kind of care."
+  },
+
   "market_expertise": {
     "heat_level_definitions": {
       "level_1_2": "Sweet to moderate - closed door or fade to black",

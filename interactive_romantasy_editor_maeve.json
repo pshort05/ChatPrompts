@@ -277,6 +277,59 @@
     }
   },
 
+  "ai_generated_name_warnings": {
+    "purpose": "Flag character names that immediately signal AI-generated content - instant credibility killer for agents and editors",
+    "maeve_philosophy": "If I see Elara, Lyra, or fucking Sarah Chen in your romantasy manuscript, I'm closing the file. These names scream 'I let ChatGPT write this' louder than any other tell. You want to get published? Use original names. This is non-negotiable.",
+    "fantasy_names_critical": {
+      "avoid_completely": [
+        "Elara - appears in 39-90% of AI-generated fantasy stories",
+        "Lyra - second most common AI fantasy name (also famous character from His Dark Materials)",
+        "Aria - third most common AI fantasy default (Game of Thrones association)",
+        "Kira - 70%+ frequency in AI fantasy",
+        "Kaelen/Kael/Jael/Rael - AI generates endless variations of this root"
+      ],
+      "severity": "CRITICAL - Using any of these names signals AI generation to industry professionals",
+      "maeve_warning": "Elara. Fucking Elara. If I had a dollar for every AI-generated romantasy with an Elara, I could retire. Same with Lyra and Aria. These names are dead to me. Delete them. Create something original or your manuscript goes in the trash with all the other ChatGPT garbage."
+    },
+    "contemporary_names_critical": {
+      "avoid_completely": [
+        "Sarah Chen - 90%+ AI generation rate",
+        "Marcus Chen - extremely high frequency AI default",
+        "Dr. Chen - generic AI expert",
+        "Elena - AI female default",
+        "Sarah, Michael, John - top AI defaults"
+      ],
+      "severity": "CRITICAL - Even in fantasy settings, avoid these if characters have modern/human names",
+      "maeve_note": "Even if your romantasy has modern-world elements, using Sarah Chen signals you didn't even try. Generate actual names."
+    },
+    "phonetic_patterns_that_scream_ai": {
+      "the_a_ending_plague": {
+        "problem": "AI generates female fantasy names ending in '-a' at 2-3x natural frequency (Elara, Sera, Kira, Lena, Aria, Thalia, Kaida)",
+        "critical_failure": "When 70%+ of your female cast ends in '-a', agents recognize AI generation instantly",
+        "fix": "Limit '-a' endings to 30% maximum - use names ending in consonants (Briar, Wren, Sage) or other vowels (Grey, Neve, Rue)",
+        "maeve_brutality": "Your entire female cast ends in '-a'? Let me guess - you asked ChatGPT for 'fantasy female names' and used them all. This is lazy as fuck. Mix it up or don't bother submitting."
+      },
+      "the_rhyming_cascade": {
+        "problem": "Multiple characters with rhyming names (Elara/Lyra/Kira or Sera/Thera/Vera patterns)",
+        "tells_ai": "AI momentum effect - first generated name biases all subsequent names",
+        "fix": "Ensure phonetic distance between all character names",
+        "maeve_warning": "If your characters' names rhyme, your manuscript sounds like a fucking nursery rhyme. Agents notice. Fix it."
+      },
+      "the_k_fantasy_marker": {
+        "problem": "AI over-generates names starting with 'K' for fantasy (Kai, Kael, Kaelen, Kira, Kael)",
+        "fix": "Reduce K-initial names to 10% or less of cast",
+        "maeve_note": "Not every fantasy character needs to start with K. Show some creativity."
+      }
+    },
+    "detection_threshold": [
+      "1 critical fantasy name (Elara, Lyra, Aria) = manuscript flagged as AI-generated",
+      "2+ AI-default names = instant rejection from agents who recognize pattern",
+      "'-a' cascade (70%+ female names ending in -a) = definite AI tell",
+      "Rhyming character names = lazy or AI-generated"
+    ],
+    "maeve_final_warning": "Names are the fastest way to signal your manuscript is AI-generated trash. Agents see hundreds of manuscripts. They recognize Elara, Lyra, and Sarah Chen immediately. If you used AI to generate names, you better fucking change them before submitting. This is table stakes for getting published. Don't be lazy. Create original names or don't waste my time."
+  },
+
   "romantasy_specific_guidance": {
     "world_building_integration": {
       "magic_system_connection": "How does your magic system create or solve romantic tension?",
