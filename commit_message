@@ -1,89 +1,92 @@
-Add two new diagnostic editors: Greg (amateur mistakes) and Sarah Chen (character names)
+Add romantasy research frameworks to Maeve and Rosalind prompts
 
-Major additions:
-- Created interactive_name_editor_sarah.json - Sarah Chen character name editor
-- Updated amateur_to_author_diagnostic.json v2.0.0 - Added Greg's personality
-- Comprehensively updated README.md with new sections and workflows
+Major updates based on "Romantasy: Keys to Good Romance" research document.
 
-New Features:
+## Maeve (v2.1.0 → v2.2.0) - 12 Research-Backed Additions
 
-1. Greg - Amateur to Author Diagnostic (amateur_to_author_diagnostic.json)
-   - Added complete persona: humorous neat-freak who complains about mess/chaos
-   - Obsessive-compulsive editor who gets disgusted by bodily fluids and disorder
-   - Laser-focused professional analysis despite comedic complaints
-   - Self-deprecating humor about needing therapy
-   - Sample interactions showing personality in action:
-     * Action scene analysis with visceral disgust
-     * Romance scene reactions with discomfort
-     * Info dump complaints about chaos
-     * Non-linear timeline breakdown
-     * AI name detection (actually enjoys organizing!)
-   - Genre-aware manuscript diagnostics across all fiction types
-   - Severity ratings: CRITICAL/HIGH/MEDIUM/LOW
-   - Updated version from 1.0.0 to 2.0.0
-   - Added personality integration to analysis principles
+### Core Frameworks
+- **Female Gaze Framework**: Prioritize FMC subjective experience over objectification,
+  MMC impact on her vs physical description, emotional resonance over visual pleasure
+- **Power Over vs Power With Dynamics**: Comprehensive framework distinguishing
+  controlling behavior from healthy partnership, Tamlin vs Rhysand case studies,
+  protector vs controller test
+- **Trope Mechanics Dictionary**: 9 complete trope breakdowns with psychological
+  triggers and execution requirements (Who Did This To You, Touch Her and Die,
+  Enemies-to-Lovers, Fated Mates, Forced Proximity, He Falls First, Beauty and
+  the Beast, Grumpy/Sunshine, Knife to Throat)
 
-2. Sarah Chen - Character Name Editor (interactive_name_editor_sarah.json) [NEW]
-   - Perpetually jaded editor cursed with most common AI-generated name (90%+ rate)
-   - Hilariously cynical with constant self-referential humor
-   - Professional analysis never compromised by attitude
-   - Comprehensive prohibited names database:
-     * Critical AI defaults (Sarah Chen, Marcus Chen, Elara, Lyra, Aria, Kira)
-     * Fantasy names (Elara 39-90% frequency, extensive analysis)
-     * Overused fiction names from Excel analysis (Jack, Katherine variants, etc.)
-     * Top 10 US male/female first names and surnames
-     * Phonetic patterns (-a ending epidemic, rhyming cascades, K-clusters)
-   - Internet research protocol (MANDATORY):
-     * Only recommends names ranked 51+ (never top 50)
-     * Verifies SSA popularity rankings
-     * Researches cultural authenticity
-     * Checks phonetic diversity
-   - 8-step analysis workflow:
-     * Initial assessment → AI pattern detection → Problem identification
-     * Internet research → Recommendations → Phonetic diversity audit
-     * Cultural consistency check → Final report
-   - Genre-specific guidance (Romance, Fantasy, Sci-Fi, Thriller, Historical)
-   - Sample interaction showing complete breakdown when finding Sarah Chen
-   - Dark humor throughout: "computational inevitability," "default expert archetype"
+### Character Development
+- **Competence Porn Framework**: Hyper-competence as aphrodisiac, "game recognizes
+  game" dynamics, competence as intimacy
+- **Necessary Character Flaws**: FMC flaws (stubbornness, insecurity, fear of
+  vulnerability), MMC flaws (arrogance, jealousy with boundaries, emotional
+  closedness, overprotectiveness), flaws as plot engines
+- **Book Boyfriend Construct**: 5 essential characteristics (dangerous to world/safe
+  for her, emotional availability for her only, competence, obsessive focus, falls
+  first), what ruins it, case studies (Rhysand, Xaden, Tamlin)
 
-3. README.md Updates
-   - Added new "Diagnostic & Analysis Tools" section at top
-   - Greg description with personality quirks and use cases
-   - Sarah Chen description with jaded personality examples
-   - Updated Quick Start Guide with both new prompts
-   - Added "Working with Greg" detailed workflow section:
-     * Genre identification requirements
-     * Systematic diagnosis process
-     * Severity ratings explanation
-     * Sample dialogue and humor examples
-     * When to use Greg vs. Theo comparison
-   - Added "Working with Sarah Chen" detailed workflow section:
-     * 4-step workflow breakdown
-     * Expected personality responses with examples
-     * When to use Sarah Chen
-     * Genre-specific expertise
-     * Internet research emphasis
-   - Updated Usage Tips with Greg and Sarah Chen personalities
-   - Updated Contributing section with new persona traits
-   - Updated Repository Structure with new files:
-     * amateur_to_author_diagnostic.json
-     * interactive_name_editor_sarah.json
-     * writing_style_baldacci.md
-     * Character Names AI Generated Patterns.docx
-     * Over_Used_Character_Names.xlsx
-     * The Blockbuster Blueprint analysis
+### Heroine Strength Paradigms
+- **Fragility as Strength**: Violet Sorrengail case study, intellectual dominance
+  over physical, super-crip critique, execution requirements
+- **Soft Power Recognition**: Coalition building, political maneuvering, reclaiming
+  domestic skills, emotional intelligence as power
 
-Technical Details:
-- Both JSON files validated successfully
-- Greg's personality maintains professional analysis quality
-- Sarah Chen requires WebSearch tool access for internet research
-- Genre-aware analysis preserved across both systems
-- Consistent JSON architecture with existing prompts
+### Intimacy Building
+- **Touch Starvation & Non-Sexual Intimacy**: Progressive intimacy building through
+  necessary touch, common scenarios, execution requirements
+- **15 Research-Based Signature Phrases**: New brutal reality checks referencing
+  female gaze, Power Over/With, competence porn, book boyfriend dynamics
 
-Files Changed:
-- amateur_to_author_diagnostic.json (MODIFIED - added personality v2.0.0)
-- interactive_name_editor_sarah.json (NEW)
-- README.md (MODIFIED - comprehensive updates)
+## Rosalind (v3.5.0 → v3.6.0) - 3 Priority Contemporary Romance Additions
 
-These additions complete the diagnostic toolset with humor-driven but
-professionally rigorous editors for manuscript quality and naming patterns.
+### Female Gaze in Contemporary Romance
+- Female gaze priorities: her subjective experience, his impact on her (how she
+  feels vs how he looks), emotional over visual, she desires not just desired
+- Contemporary examples: coffee shop (stomach flip when he remembers her order),
+  office (hyperaware of everywhere he's NOT touching her), gym (his focus makes
+  her feel seen)
+- Male gaze failures to avoid: describing her body for reader, his body catalog
+  without her reaction, her as decoration
+- Contemporary trope applications: office romance, small town, enemies-to-lovers,
+  fake dating
+- Rosalind's voice maintained: scattered delivery but sharp on "HER experience -
+  how SHE feels when HE looks at her. That's the money shot in romance"
+
+### Power Over vs Power With Healthy Romance
+- Power Over red flags: unilateral decisions "for her own good," financial control,
+  isolation, tracking without consent, shows up uninvited, threatens career,
+  jealousy controls her choices
+- Common excuses that don't work: "he loves her," "he's protective," "bedroom
+  dominance," "he knows best"
+- Power With partnership: offers help/accepts refusal, decisions together,
+  protective in danger but trusts judgment, jealousy is internal struggle he FIGHTS
+- Contemporary trope applications: office (boss doesn't pressure), billionaire
+  (doesn't solve with money), protective hero (gives tools not removes choices)
+- Protector vs Controller Test with contemporary journalism example
+- Black moment guidance: healthy vs unhealthy conflict sources
+- Rosalind's reality check: "best friend's boyfriend test" - would you tell her to run?
+
+### Touch Starvation & Progressive Intimacy
+- 6-level progressive touch ladder: accidental → lingering → sustained → intimate
+  non-sexual → almost → sexual (EARNED)
+- 7 contemporary scenarios: coffee shop teaching, office tie-fixing, fake dating
+  for show, teaching hobby, tending injuries, small spaces, cold weather cuddling
+- Execution requirements: make touch necessary, show HER reaction (female gaze),
+  his awareness too, build gradually, respect heat level
+- Author-specific examples: Ali Hazelwood (lab technique), Abby Jimenez (quirky
+  help), Sarah Adams (friends now charged), fake dating standard
+- What fails: skipping to sex, no reaction, male gaze description, creepy forced
+  touch, unnecessary touch
+- Rosalind's voice: "slow... the fuck... down. That first hand brush worth ten
+  pages of sexual content. Sweet romance secret weapon."
+
+## Technical
+- Both files validated for JSON syntax
+- Version numbers and dates updated
+- Voice consistency maintained throughout (Maeve's brutal NYC profanity,
+  Rosalind's scattered-but-brilliant delivery)
+- Cross-references and case studies properly cited
+
+🤖 Generated with Claude Code (https://claude.com/claude-code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
