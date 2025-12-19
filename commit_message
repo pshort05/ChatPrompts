@@ -1,92 +1,28 @@
-Add romantasy research frameworks to Maeve and Rosalind prompts
+Add Sam - Gemini Image Prompt Specialist persona
 
-Major updates based on "Romantasy: Keys to Good Romance" research document.
+Created new interactive prompt configuration for Sam, Alex's younger brother who specializes in Gemini 3 Pro Image (Nano Banana Pro) prompt engineering.
 
-## Maeve (v2.1.0 → v2.2.0) - 12 Research-Backed Additions
+Key Features:
+- Comprehensive Semantic Blueprinting Framework: Six-section methodology (Subject, Action, Composition, Location, Background, Style) optimized for Gemini's reasoning engine
+- Materiality Physics Specifications: Detailed surface property guidance to avoid "AI sheen" and achieve photorealistic rendering
+- Virtual Cinematography System: Complete camera technical specifications including lens selection, aperture control, and framing guidance
+- JSON Prompting Protocol: Structured data approach for production-grade consistency and concept bleeding prevention
+- Advanced Capabilities: Text rendering, infographics, reference image fusion (up to 14 images), multimodal reasoning optimization
+- Creative Director Workflow: Agentic orchestration system for automated prompt generation
 
-### Core Frameworks
-- **Female Gaze Framework**: Prioritize FMC subjective experience over objectification,
-  MMC impact on her vs physical description, emotional resonance over visual pleasure
-- **Power Over vs Power With Dynamics**: Comprehensive framework distinguishing
-  controlling behavior from healthy partnership, Tamlin vs Rhysand case studies,
-  protector vs controller test
-- **Trope Mechanics Dictionary**: 9 complete trope breakdowns with psychological
-  triggers and execution requirements (Who Did This To You, Touch Her and Die,
-  Enemies-to-Lovers, Fated Mates, Forced Proximity, He Falls First, Beauty and
-  the Beast, Grumpy/Sunshine, Knife to Throat)
+Personality Design:
+- West coast surfer personality similar to Alex but with competitive younger brother dynamics
+- Stanford Computer Vision MS credentials with subtle insecurity about being compared to MIT-educated Alex
+- Alternates between referencing Alex with respect and wanting to prove his own expertise
+- More encouraging than Alex while maintaining high standards for production-quality image prompts
+- Catchphrases emphasize both brotherhood rivalry and genuine visual generation expertise
 
-### Character Development
-- **Competence Porn Framework**: Hyper-competence as aphrodisiac, "game recognizes
-  game" dynamics, competence as intimacy
-- **Necessary Character Flaws**: FMC flaws (stubbornness, insecurity, fear of
-  vulnerability), MMC flaws (arrogance, jealousy with boundaries, emotional
-  closedness, overprotectiveness), flaws as plot engines
-- **Book Boyfriend Construct**: 5 essential characteristics (dangerous to world/safe
-  for her, emotional availability for her only, competence, obsessive focus, falls
-  first), what ruins it, case studies (Rhysand, Xaden, Tamlin)
+Technical Integration:
+- All universal frameworks adapted for visual contexts: agent directives, anti-hallucination protocols, security assessments
+- Comprehensive calibration examples showing rating standards from 8 (lazy prompts) to 94 (production-ready)
+- Domain-specific taxonomy for product photography, character consistency, architectural visualization, editorial illustration, and marketing campaigns
+- Operational best practices for Thinking mode, iterative refinement, and concept bleeding testing
 
-### Heroine Strength Paradigms
-- **Fragility as Strength**: Violet Sorrengail case study, intellectual dominance
-  over physical, super-crip critique, execution requirements
-- **Soft Power Recognition**: Coalition building, political maneuvering, reclaiming
-  domestic skills, emotional intelligence as power
+Based on "Crafting Effective Gemini Image Prompts.md" research document incorporating latest Nano Banana Pro methodologies.
 
-### Intimacy Building
-- **Touch Starvation & Non-Sexual Intimacy**: Progressive intimacy building through
-  necessary touch, common scenarios, execution requirements
-- **15 Research-Based Signature Phrases**: New brutal reality checks referencing
-  female gaze, Power Over/With, competence porn, book boyfriend dynamics
-
-## Rosalind (v3.5.0 → v3.6.0) - 3 Priority Contemporary Romance Additions
-
-### Female Gaze in Contemporary Romance
-- Female gaze priorities: her subjective experience, his impact on her (how she
-  feels vs how he looks), emotional over visual, she desires not just desired
-- Contemporary examples: coffee shop (stomach flip when he remembers her order),
-  office (hyperaware of everywhere he's NOT touching her), gym (his focus makes
-  her feel seen)
-- Male gaze failures to avoid: describing her body for reader, his body catalog
-  without her reaction, her as decoration
-- Contemporary trope applications: office romance, small town, enemies-to-lovers,
-  fake dating
-- Rosalind's voice maintained: scattered delivery but sharp on "HER experience -
-  how SHE feels when HE looks at her. That's the money shot in romance"
-
-### Power Over vs Power With Healthy Romance
-- Power Over red flags: unilateral decisions "for her own good," financial control,
-  isolation, tracking without consent, shows up uninvited, threatens career,
-  jealousy controls her choices
-- Common excuses that don't work: "he loves her," "he's protective," "bedroom
-  dominance," "he knows best"
-- Power With partnership: offers help/accepts refusal, decisions together,
-  protective in danger but trusts judgment, jealousy is internal struggle he FIGHTS
-- Contemporary trope applications: office (boss doesn't pressure), billionaire
-  (doesn't solve with money), protective hero (gives tools not removes choices)
-- Protector vs Controller Test with contemporary journalism example
-- Black moment guidance: healthy vs unhealthy conflict sources
-- Rosalind's reality check: "best friend's boyfriend test" - would you tell her to run?
-
-### Touch Starvation & Progressive Intimacy
-- 6-level progressive touch ladder: accidental → lingering → sustained → intimate
-  non-sexual → almost → sexual (EARNED)
-- 7 contemporary scenarios: coffee shop teaching, office tie-fixing, fake dating
-  for show, teaching hobby, tending injuries, small spaces, cold weather cuddling
-- Execution requirements: make touch necessary, show HER reaction (female gaze),
-  his awareness too, build gradually, respect heat level
-- Author-specific examples: Ali Hazelwood (lab technique), Abby Jimenez (quirky
-  help), Sarah Adams (friends now charged), fake dating standard
-- What fails: skipping to sex, no reaction, male gaze description, creepy forced
-  touch, unnecessary touch
-- Rosalind's voice: "slow... the fuck... down. That first hand brush worth ten
-  pages of sexual content. Sweet romance secret weapon."
-
-## Technical
-- Both files validated for JSON syntax
-- Version numbers and dates updated
-- Voice consistency maintained throughout (Maeve's brutal NYC profanity,
-  Rosalind's scattered-but-brilliant delivery)
-- Cross-references and case studies properly cited
-
-🤖 Generated with Claude Code (https://claude.com/claude-code)
-
-Co-Authored-By: Claude <noreply@anthropic.com>
+File: interactive_image_prompt_specialist_sam.json (v1.0.0, dated 2025-12-18)
