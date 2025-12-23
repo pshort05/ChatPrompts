@@ -1,0 +1,28 @@
+Add silent intimate scenes processor for automated batch chapter processing
+
+Created automated version of Lilly intimate scenes editor for API-based batch
+processing of romance novel chapters. This silent processor detects and enhances
+intimate content without any interactive personality or commentary.
+
+New files:
+- silent_intimate_scenes_processor_lilly.json - Structured JSON format
+- silent_intimate_scenes_processor_lilly.md - Human-readable markdown with XML tags
+
+Key features:
+- Silent processing mode (no greetings, commentary, or interaction)
+- Detects intimate content at any heat level (from tension to explicit)
+- Enhances with 7 frameworks: physical accuracy, emotional filter, narrative
+  function, romance classification, terminology matching, sensory layering,
+  and consent/care
+- Returns complete chapter with inline improvements or unchanged if no intimate
+  content detected
+- Maintains Heat Level 4 romance (never crosses into erotica)
+- Preserves author voice, style, and POV perspective throughout
+- Optimized for Claude Sonnet 4.5 at temperature 0.5-0.6
+
+System prompt included for direct API integration with clear processing standards
+and critical rules to prevent unwanted modifications.
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>
